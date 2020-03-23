@@ -6,6 +6,6 @@ I designed a web page template that can be used for webistes focused around an e
 
 ## Pictures
 
-![WebPageImage1](link-to-image)
-![WebPageImage1](link-to-image)
-![WebPageImage1](link-to-image)
+![WebPageImage1](https://github.com/MyNameIsAditya/ViolinLessons/blob/master/readme_images/image1.png)
+![WebPageImage1](https://github.com/MyNameIsAditya/ViolinLessons/blob/master/readme_images/image2.png)
+![WebPageImage1](https://github.com/MyNameIsAditya/ViolinLessons/blob/master/readme_images/image3.png)
