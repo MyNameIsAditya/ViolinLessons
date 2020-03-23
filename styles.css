@@ -1,0 +1,381 @@
+/*-----------------Defaults-----------------*/
+nav, header, footer
+{
+    display: block;
+}
+
+body
+{
+    line-height: 1;
+    margin: 0;
+    background: black;
+}
+
+label
+{
+    font-size: 35px;
+    font-weight: bolder;
+}
+
+p
+{
+    font-size: 28px;
+    line-height: 1.2;
+}
+
+article p
+{
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.container
+{
+    width: 100%;
+    margin: auto;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    
+}
+
+.row
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.row::after
+{
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.67%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.67%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.67%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.67%;}
+.col-12 {width: 100%;}
+
+*
+{
+    box-sizing: border-box;
+}
+
+/*-----------------Navigation Bar-----------------*/
+nav 
+{
+    width: 100%;
+    margin: 0;   
+}
+
+nav ul 
+{
+    color: white;
+    background: black;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+ul.topnav li
+{
+    list-style: none;
+    float: left;
+}
+
+ul.topnav li.topnav-right
+{
+    list-style: none;
+    float: right; 
+}
+
+ul.topnav li a
+{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: white;
+}
+
+ul.topnav li a:hover
+{
+    background-color: #652121;
+}
+
+ul.topnav li.dropdownIcon
+{
+    display: none;
+}
+
+/*-----------------Custom Styles-----------------*/
+#section-1-gradient
+{
+    background: #F9E5BC; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#F9E5BC, #9a4f01); /* For Safari */
+    background: -o-linear-gradient(#F9E5BC, #9a4f01); /* For Opera */
+    background: -moz-linear-gradient(#F9E5BC, #9a4f01); /* For Firefox */
+    background: linear-gradient(#F9E5BC, #9a4f01); /* Standard Syntax */
+}
+
+#section-2-gradient
+{
+    background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(brown, #652121); /* For Safari */
+    background: -o-linear-gradient(brown, #652121); /* For Opera */
+    background: -moz-linear-gradient(brown, #652121); /* For Firefox */
+    background: linear-gradient(brown, #652121); /* Standard Syntax */
+}
+
+#section-3-gradient
+{
+    background: blue; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(blue, aqua); /* For Safari */
+    background: -o-linear-gradient(blue, aqua); /* For Opera */
+    background: -moz-linear-gradient(blue, aqua); /* For Firefox */
+    background: linear-gradient(blue, aqua); /* Standard Syntax */
+}
+
+div.container.differentClasses
+{
+    padding-top: 0;
+}
+
+div.box
+{
+    text-align: center;
+    margin: 24px;
+    padding-top: 36px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 7px;
+    background-color: #F9E5BC;
+    box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.15), 0 2px 3px 0 rgba(255, 255, 255, 0.1);
+}
+
+div.icon
+{
+    width: 100%;
+}
+
+div.icon img.quarterNote
+{
+    width: 50px;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.icon img.otherNote
+{
+    width: 80px;
+    height: 130px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.playingIcon img
+{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 300px;
+    box-shadow: -2px -2px 20px 2px rgba(255, 255, 255, 0.15), 2px 2px 17px 2px rgba(255, 255, 255, 1); /*Horizontal, Vertical, Blur, Spread*/ /*rgba(Shadow Color, Background Color, Box Color, Opacity)*/
+}
+
+button
+{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    background-color: #652121;
+    padding: 15px 60px;
+    display: block;
+    text-align: center;
+    margin: 5px;
+    border-radius: 7px;
+}
+
+button.learnMore
+{
+    display: block;
+    margin: auto;
+}
+
+div.leftSide-col
+{
+    margin-left: 25%;
+}
+
+div.rightSide-col
+{
+    margin-left: 2%;
+}
+
+h1.large
+{
+    color: white;
+    font-size: 56px;
+    margin: 0;
+    line-height: 70px;
+}
+
+h1.sectionHeader
+{
+    color: white;
+    font-size: 65px;
+    text-align: center;
+    
+}
+
+form h2
+{
+    color: white;
+}
+
+input[type = "text"]
+{
+    font-size: 20px;
+    width: 400px;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 7px;
+}
+
+footer.footsy
+{
+    background-color: #282828;
+    padding-left: 10%;
+}
+
+footer.footsy h1
+{
+    color: white;
+    font-size: 35px;
+    
+}
+
+footer.footsy ul
+{
+    list-style: none;
+    text-align: left;
+    padding-left: 0px;
+}
+
+footer.footsy ul li
+{
+    color: white;
+    font-size: 22px;
+    line-height: 1.5;
+}
+
+/*-----------------Mobile-----------------*/
+@media screen and (max-width: 680px)
+{
+    ul.topnav li:not(:nth-child(1))
+    {
+        display: none;
+    }
+    
+    ul.topnav li.dropdownIcon
+    {
+        display: block;
+        float: right;
+    }
+    
+    ul.topnav.responsive li.dropdownIcon
+    {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    ul.topnav.responsive
+    {
+        position: relative;
+    }
+    
+    ul.topnav.responsive li
+    {
+        display: inline;
+        float: none;
+    }
+    
+    ul.topnav.responsive li a
+    {
+        display: block;
+        text-align: left;
+    }
+    
+    h1.sectionHeader
+    {
+        font-size: 50px;
+    }
+    
+    article p
+    {
+        font-size: 25px;
+    }
+    
+    .col-7, .col-6, .col-5, .col-4
+    {
+        width: 100%;
+        margin: 0;
+    }
+    
+    div.mobileStack
+    {
+        width: 50%;
+        display: block;
+    }
+    
+    div.box
+    {
+        padding: 10px;
+        display: block;
+    }
+    
+    div.playingIcon
+    {
+        margin: 10px;
+    }
+    
+    div.playingIcon img
+    {
+        width: 100%;
+    }
+    
+    div.leftSide-col, div.rightSide-col
+    {
+        margin: 15px;
+    }
+    
+    input[type = "text"]
+    {
+        width: 350px;
+    }
+    
+    .videoContainer iframe
+    {
+        position: relative;
+        width: 100%;
+        margin: 0;
+        overflow: hidden;
+    }
+    
+    
+}
