@@ -1,4 +1,4 @@
-# Violin Lessons Web Page
+# Violin Lessons Web Page (Desktop and Mobile Compatible)
 
 ## Purpose
 
