@@ -2,7 +2,7 @@
 
 ## Purpose
 
-I designed a web page template that can be used for webistes focused around an education in music. 
+I designed a web page template that can be used for websites focused around an education in music. 
 
 ## Pictures
 
